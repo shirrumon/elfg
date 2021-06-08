@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomePage</title>
+    <style>
+        html {
+            background: darkviolet;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center">WOW! This template is work now!<br>Current time is: {{ time }}</h1>
+your session id is: {{ session_id }}
+<p>
+    {% for i in lst %}
+    {{ i }}
+    {% endblock %}
+</p>
+</body>
+</html>
